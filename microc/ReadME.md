@@ -156,14 +156,10 @@ machine -trace ex9.out 3
 ```
 #### D.3 Java
 ```sh
-javac Machine.java
-java Machine ex9.out 3
+javac -Xlint:deprecation Machine.java 
+java Machine ../TestParse/test-for.out 3
 
-javac Machinetrace.java
-java Machinetrace ex9.out 0
-java Machinetrace ex9.out 3
 ```
-
 
 
 
