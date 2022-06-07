@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj": {}
+    "D:\\Study\\大三下\\编译原理\\期末作业\\F#编译器\\-2022-\\microc\\microcc.fsproj": {}
   },
   "projects": {
-    "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj": {
+    "D:\\Study\\大三下\\编译原理\\期末作业\\F#编译器\\-2022-\\microc\\microcc.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj",
+        "projectUniqueName": "D:\\Study\\大三下\\编译原理\\期末作业\\F#编译器\\-2022-\\microc\\microcc.fsproj",
         "projectName": "microcc",
-        "projectPath": "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj",
-        "packagesPath": "C:\\Users\\zhaojiajie\\.nuget\\packages\\",
-        "outputPath": "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\obj\\",
+        "projectPath": "D:\\Study\\大三下\\编译原理\\期末作业\\F#编译器\\-2022-\\microc\\microcc.fsproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\大三下\\编译原理\\期末作业\\F#编译器\\-2022-\\microc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Development\\VisualStudio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zhaojiajie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

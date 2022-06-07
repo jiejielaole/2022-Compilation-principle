@@ -170,15 +170,15 @@
 
 ​			![image-20220607161802822](readme.assets/image-20220607161802822.png)
 
-​			编译器测试自增自减
+​			编译器测试dowhile
 
-​			dotnet run --project microcc.fsproj example_parse/test-self-plus.c 8
+​			dotnet run --project microcc.fsproj example_parse/test-dowhile.c 8
 
-​			<img src="readme.assets/6.png" alt="6" style="zoom:50%;" />
+​			<img src="readme.assets/inter_do-while.png" style="zoom:50%;" />
 
 ​			运行结果：
 
-​			![image-20220607161921112](readme.assets/image-20220607161921112.png)
+​			![image-20220607172832693](readme.assets/image-20220607172832693.png)
 
 ​			编译器测试switch语句
 
