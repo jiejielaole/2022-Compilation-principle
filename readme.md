@@ -140,7 +140,7 @@
 
 ​			dotnet run --project microcc.fsproj example_parse/test-float.c 8
 
-<img src="readme.assets/3.png" alt="3" style="zoom:50%;" />
+    
 
 ​			运行结果：
 
