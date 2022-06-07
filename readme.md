@@ -198,6 +198,8 @@ javac -Xlint:deprecation Machine.java
 
 java Machine ../example_parse/test-for.out 8
 
+java Machinetrace ../example_parse/test-for.out 8
+
 ![image-20220607162225410](readme.assets/image-20220607162225410.png)
 
 
