@@ -1,46 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "D:\\git\\-micro-C\\microc\\microcc.fsproj": {}
+    "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj": {}
   },
   "projects": {
-    "D:\\git\\-micro-C\\microc\\microcc.fsproj": {
+    "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\git\\-micro-C\\microc\\microcc.fsproj",
+        "projectUniqueName": "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj",
         "projectName": "microcc",
-        "projectPath": "D:\\git\\-micro-C\\microc\\microcc.fsproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "D:\\git\\-micro-C\\microc\\obj\\",
+        "projectPath": "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\microcc.fsproj",
+        "packagesPath": "C:\\Users\\zhaojiajie\\.nuget\\packages\\",
+        "outputPath": "G:\\GithubDesktop\\GithubLocalRep\\2022-Compilation-principle\\microc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\zhaojiajie\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[5.0.0, )",
+              "version": "[6.0.2, )",
               "generatePathProperty": true
             },
             "FsLexYacc": {
@@ -64,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
