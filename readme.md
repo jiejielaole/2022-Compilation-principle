@@ -16,13 +16,13 @@
 | 赵佳杰 | 31901123 | 计算机1904 | 编译器、修改Java虚拟机、测试 | 0.95 |
 | 周禹江 | 31901125 | 计算机1904 | 解释器、测试、文档、代码注释 | 0.95 |
 
-成员代码提交日志
+## 成员代码提交日志
 
 ![image-20210627192044858](.\img\record.png)
 
 
 
-1. 项目自评等级:(1-5) 请根据自己项目情况填写下表
+1. #### 项目自评等级:(1-5) 请根据自己项目情况填写下表
 
    （完善程度：个人认为实现的完善程度，个人花费的工作量等
    	难度：实现的困难程度，工作量大小，老师定义的困难程度等）
@@ -36,7 +36,7 @@
 | float类型             | 4        | 2    |
 | for循环               | 4        | 3    |
 | 数据初值定义          | 3        | 4    |
-| 自增自减（++/--)      | 5        | 3    |
+| do-while              | 5        | 3    |
 | switch  case  default | 4.5      | 5    |
 
 | 编译器                | 完善程度 | 难度 |
@@ -50,7 +50,7 @@
 | switch  case  default | 4        | 1    |
 | 修改Java虚拟机        | 3        | 2    |
 
-2. 项目说明
+2. #### 项目说明
 
    - 整体文件架构
 
@@ -116,14 +116,18 @@
 
      
 
+     
+
+     ## 编译器功能展示：
+
      编译器测试array：
 
      dotnet run --project microcc.fsproj example_parse/test-array.c 8
 
      <img src="readme.assets/1-16545887918663.png" alt="1" style="zoom: 50%;" />
-
+   
      运行结果：
-
+   
      ![image-20220607160856039](readme.assets/image-20220607160856039.png)
    
      编译器测试bool
@@ -131,16 +135,16 @@
      dotnet run --project microcc.fsproj example_parse/test-bool.c 8
    
      <img src="readme.assets/2.png" alt="2" style="zoom:50%;" />
-   
+     
      运行结果：
-   
+     
      ![image-20220607160653622](readme.assets/image-20220607160653622.png)
 
 ​			编译器测试float
 
 ​			dotnet run --project microcc.fsproj example_parse/test-float.c 8
 
-    
+​    
 
 ​			运行结果：
 
@@ -188,7 +192,7 @@
 
 
 
-java虚拟机运行：
+## java虚拟机运行：
 
 javac -Xlint:deprecation Machine.java 
 
@@ -196,22 +200,140 @@ java Machine ../example_parse/test-for.out 8
 
 ![image-20220607162225410](readme.assets/image-20220607162225410.png)
 
-3. 心得体会（结合自己情况具体说明）
-
-   - 赵佳杰：编译原理的大作业说实话很困难。我们根据现有的代码进行了修改与完善。通过对该课程的学习，了解了什么是编译程序，编译程序工作的基本过程及其各阶段的基本任务，也系统的理解了编译原理程序构造的一般原理和基本实现方法。
-
-   - 周禹江：
-
-     ​		
 
 
-   - 本课程建议
-     - 赵佳杰：
+## 解释器功能展示：
 
-       ​	老师上课教的知识有点抽象，很难很快掌握与理解。
+1、float类型
 
-     - 周禹江:
+代码展示：
 
-       
+<img src="readme.assets/inter_float-16545918638541.png" style="zoom: 50%;" />
 
-       
+运行指令：
+
+**dotnet run -p interpc.fsproj example_inter/test-float.c 1**
+
+运行结果：
+
+![image-20220607165605013](readme.assets/image-20220607165605013.png)
+
+
+
+2、bool类型
+
+代码展示：
+
+<img src="readme.assets/inter_bool.png" style="zoom: 50%;" />
+
+运行指令：
+
+**dotnet run -p interpc.fsproj example_inter/test-bool.c 1**
+
+运行结果：
+
+![image-20220607165831690](readme.assets/image-20220607165831690.png)
+
+
+
+3、各类数组，数组检查
+
+代码展示：
+
+<img src="readme.assets/inter_array.png" style="zoom:50%;" />
+
+运行指令：
+
+**dotnet run -p interpc.fsproj example_inter/test-array.c 1**
+
+运行结果：
+
+![image-20220607170219574](readme.assets/image-20220607170219574.png)
+
+
+
+4、for循环
+
+代码展示：
+
+<img src="readme.assets/inter_for.png" style="zoom:50%;" />
+
+运行指令：
+
+**dotnet run --project interpc.fsproj example_inter/test-for.c 5**
+
+运行结果：
+
+![image-20220607170858552](readme.assets/image-20220607170858552.png)
+
+
+
+5、数据初值定义
+
+代码展示：
+
+<img src="readme.assets/inter_init.png" style="zoom:50%;" />
+
+运行指令：
+
+**dotnet run --project interpc.fsproj example_inter/test-init.c 5**
+
+运行结果：
+
+![image-20220607171150891](readme.assets/image-20220607171150891.png)
+
+
+
+6、do-while
+
+代码展示：
+
+<img src="readme.assets/inter_do-while.png" style="zoom:50%;" />
+
+运行指令：
+
+**dotnet run --project interpc.fsproj example_inter/test-dowhile.c 5**
+
+运行结果：
+
+![image-20220607172030551](readme.assets/image-20220607172030551.png)
+
+
+
+7、switch  case  default
+
+代码展示：
+
+<img src="readme.assets/inter_switch.png" style="zoom:50%;" />
+
+运行指令：
+
+**dotnet run --project interpc.fsproj example_inter/test-switch.c  3**
+
+运行结果：
+
+![image-20220607172406497](readme.assets/image-20220607172406497.png)
+
+
+
+
+
+## 心得体会（结合自己情况具体说明）
+
+- 赵佳杰：编译原理的大作业说实话很困难。我们根据现有的代码进行了修改与完善。通过对该课程的学习，了解了什么是编译程序，编译程序工作的基本过程及其各阶段的基本任务，也系统的理解了编译原理程序构造的一般原理和基本实现方法。
+
+- 周禹江：
+
+  ​		
+
+## 本课程建议
+
+- 赵佳杰：
+
+  ​	老师上课教的知识有点抽象，很难很快掌握与理解。
+
+- 周禹江：
+
+  
+
+  
