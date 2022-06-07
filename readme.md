@@ -158,7 +158,7 @@
          ```
           运行结果：
        
-         ![image-20210626212313824](.\img\3.png)
+         <img src="readme.assets/inter_float.png" style="zoom:50%;" />
        
        - bool类型
          通过Bool关键字定义，只支持定义为false和true，bool类型的数据可以自动转型为int类型输出（0和1）
@@ -1077,6 +1077,7 @@
          ```c
          Void main(Int n) {
               Int i;
+    
         i=0;
               for( i = 0 ; i < n;  i = i + 1){
                i=i+1;
@@ -1085,7 +1086,7 @@
              print("%d",i);
          }
          ```
-    
+        
           运行结果:![image-20210627170538009](.\img\42.png)
     
        - forin语句
@@ -1175,6 +1176,7 @@
          ![image-20210627204333139](.\img\47.png)
     
      
+    
     
 
 
